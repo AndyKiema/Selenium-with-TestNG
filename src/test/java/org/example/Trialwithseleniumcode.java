@@ -25,7 +25,6 @@ public class Trialwithseleniumcode {
         ch.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         ch.get("https://resolve.vote/");
         ch.manage().window().maximize();
-        ch.manage().window().maximize();
         WebElement logo=ch.findElement(By.xpath("/html/body/div/header/div/div[1]/a/img[1]"));
         logo.isDisplayed();
         ch.quit();
