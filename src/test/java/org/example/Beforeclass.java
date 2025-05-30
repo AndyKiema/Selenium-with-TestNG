@@ -7,7 +7,7 @@ public class Beforeclass {
     void login(){
         System.out.println("This is login");
     }
-    @Test(priority =1)
+    @Test
     public void search() {
         System.out.println("This is search");
     }
@@ -15,7 +15,7 @@ public class Beforeclass {
     void logout(){
         System.out.println("This is logout");
     }
-    @Test(priority=2)
+    @Test
     public void advancedsearch(){
         System.out.println("This is advanced search");
     }

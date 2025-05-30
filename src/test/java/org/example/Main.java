@@ -9,11 +9,11 @@ public class Main {
      void login(){
          System.out.println("This is login");
      }
-     @Test(priority =1)
+     @Test
      public void search(){
          System.out.println("This is search");
      }
-     @Test(priority=2)
+     @Test
      public void advancedsearch(){
          System.out.println("This is advanced search");
      }
