@@ -20,3 +20,4 @@ public class Beforeclass {
         System.out.println("This is advanced search");
     }
 }
+//BeforeClass and AfterClass are executed once before and after all the test methods
